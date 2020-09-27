@@ -1,0 +1,74 @@
+@import "../styles.scss";
+
+header {
+    width: 100%;
+    padding: 10px 0 6px;
+    background-color: $background-secondary;
+    position: sticky;
+    top: 0;
+    border-bottom: 1px solid #e2e2e2;
+
+    .like-header {
+        @include simple-flex(space-around, center, row);
+        height: 44px;
+        width: 100%;
+
+        span {
+            @include simple-flex(center, center, row);
+        }
+
+        border-bottom: 1px solid #e2e2e2;
+    }
+
+    .follow-req {
+        @include simple-flex(flex-start, center, row);
+        width: 100%;
+        margin-left: 16px;
+        height: 48px;
+        font-size: 15px;
+    }
+}
+
+main {
+    section {
+        max-width: 100%;
+
+        div.like-container {
+            border-bottom: 1px solid #e2e2e2;
+        }
+
+        div.new-like {
+            width: 100%;
+
+            span {
+                font-size: 15px;
+                margin: 13px 16px;
+                font-weight: 700;
+            }
+
+            div {
+                @include simple-flex(space-between, center, row);
+                font-size: 13px;
+
+                div.name-user {
+                    font-weight: 700;
+                }
+
+
+                div.like {
+                    img.userlike-img {
+                        border-radius: 50%;
+                        margin: 8px 8px 8px 16px;
+                        height: 44px;
+                        width: 44px;
+                    }
+
+                }
+            }
+
+            img {
+                margin: 8px 16px 8px 8px;
+            }
+        }
+    }
+}
