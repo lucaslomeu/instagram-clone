@@ -27,8 +27,6 @@ header {
 
 main {
     .profile-user {
-
-
         .header-user {
             @include simple-flex(space-around, center, row);
 

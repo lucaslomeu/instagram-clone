@@ -39,7 +39,6 @@ body {
   padding: 10px 0;
   border-top: 1px solid #e2e2e2;
 }
-
 .tab-bar .action-icon {
   width: 22px;
 }
@@ -59,7 +58,6 @@ header {
   position: sticky;
   top: 0;
 }
-
 header .like-header {
   display: flex;
   justify-content: space-around;
@@ -69,14 +67,12 @@ header .like-header {
   width: 100%;
   border-bottom: 1px solid #e2e2e2;
 }
-
 header .like-header span {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: row;
 }
-
 header .follow-req {
   display: flex;
   justify-content: flex-start;
@@ -94,7 +90,6 @@ main .container {
   max-width: 100%;
   margin: 0 16px;
 }
-
 main .container .like-box {
   width: 100%;
   display: flex;
@@ -103,7 +98,6 @@ main .container .like-box {
   flex-direction: column;
   border-bottom: 1px solid #e2e2e2;
 }
-
 main .container .like-box .title-box {
   margin: 13px 0;
   font-weight: 600;
@@ -111,12 +105,10 @@ main .container .like-box .title-box {
   line-height: 20px;
   letter-spacing: -0.3px;
 }
-
 main .container .like-box .title-like {
   font-size: 15px;
   font-weight: 700;
 }
-
 main .container .like-box div {
   display: flex;
   justify-content: space-between;
@@ -124,14 +116,12 @@ main .container .like-box div {
   flex-direction: row;
   font-size: 13px;
 }
-
 main .container .like-box div .like img.userlike-img {
   border-radius: 50%;
   margin: 8px 0;
   height: 44px;
   width: 44px;
 }
-
 main .container .like-box div .like div.text-box {
   display: flex;
   justify-content: flex-start;
@@ -141,27 +131,22 @@ main .container .like-box div .like div.text-box {
   max-width: 200px;
   margin-left: 12px;
 }
-
 main .container .like-box div .like div.name-user {
   font-weight: 700;
   font-size: 13px;
   margin-right: 2px;
 }
-
 main .container .like-box div .like div.name-user2 {
   font-weight: 700;
   font-size: 13px;
   margin-left: 2px;
 }
-
 main .container .like-box img {
   margin: 8px 0;
 }
-
 main .container .like-box div.time-like {
   color: #e2e2e2;
 }
-
 main .week-container {
   display: flex;
   justify-content: center;
@@ -170,14 +155,12 @@ main .week-container {
   flex-wrap: wrap;
   max-width: 100vw;
 }
-
 main .week-container div {
   display: flex;
   justify-content: space-between center;
   align-items: row;
   flex-direction: row;
 }
-
 main .week-container button {
   width: 90px;
   height: 28px;
@@ -190,24 +173,17 @@ main .week-container button {
   text-align: center;
   letter-spacing: -0.2px;
 }
-
 main .week-container button:focus {
   outline: none;
 }
-
 main .week-container .btn-msg {
   background: #FFFFFF;
   color: #262626;
 }
-
 main .week-container .btn-follow {
   background-color: #3797ef;
   color: white;
   border: none;
 }
-
-/*# sourceMappingURL=likes.css.map */
-/*# sourceMappingURL=likes.css.map */
-/*# sourceMappingURL=likes.css.map */
 
 /*# sourceMappingURL=likes.css.map */
