@@ -1,0 +1,176 @@
+@import "../styles.scss";
+
+header {
+    @include simple-flex(space-between, center, row);
+    max-width: 100%;
+    padding: 10px 0 6px;
+    background-color: $background-primary;
+    padding-bottom: 11px;
+    margin: 0 21px;
+
+    .profile-name {
+        @include simple-flex(center, center, row);
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 21px;
+        letter-spacing: -0.33px;
+
+        p {
+            margin: 0 5px;
+        }
+    }
+
+    .menu-hamburguer {
+        margin-right: 21px;
+    }
+}
+
+main {
+    .profile-user {
+
+
+        .header-user {
+            @include simple-flex(space-around, center, row);
+
+            .img-user {
+                display: flex;
+                flex-direction: column;
+                padding: 0 10px;
+                margin-bottom: 12px;
+
+                .image-border {
+                    @include box-round(96px);
+                    @include simple-flex(center, center);
+                    border: 1.5px solid #C7C7CC;
+                    position: relative;
+
+                    .img123 {
+                        height: 86px;
+                        width: 86px;
+                    }
+
+                    .story-img {
+                        border-radius: 50%;
+                        background-size: cover;
+                        width: calc(100% - 15%);
+                        height: calc(100% - 15%);
+                        border: 2.4px solid #fff;
+                    }
+                }
+            }
+        }
+
+        .stats-user {
+            @include simple-flex(center, center, row);
+
+            .numbers-user {
+                @include simple-flex(center, center, column);
+
+                h3 {
+                    font-weight: 600;
+                    font-size: 16px;
+                    line-height: 21px;
+                    text-align: center;
+                    letter-spacing: -0.3px;
+                }
+
+                p {
+                    margin: 0 12px;
+                    font-size: 13px;
+                    line-height: 16px;
+                    text-align: center;
+                    letter-spacing: -0.1px;
+                }
+            }
+        }
+
+        .bio-user {
+            @include simple-flex(center, left, column);
+            margin: 0 16px;
+
+            h1 {
+                font-weight: 600;
+                font-size: 12px;
+                line-height: 14px;
+            }
+
+            p {
+                font-size: 12px;
+                line-height: 17px;
+
+                a {
+                    text-decoration: none;
+
+                    &:hover,
+                    &:active {
+                        color: $text-color;
+                    }
+                }
+            }
+        }
+
+        .btn-edit {
+            @include simple-flex(center, center, row);
+            margin: 15px 0 20px 0;
+
+            .edit-profile {
+                width: 343px;
+                height: 29px;
+                background: #FFFFFF;
+                border: 1px solid rgba(60, 60, 67, 0.18);
+                box-sizing: border-box;
+                border-radius: 6px;
+                font-weight: 600;
+            }
+        }
+
+        .highlights {
+            @include simple-flex(space-around, center, row);
+            font-size: 12px;
+            line-height: 16px;
+            text-align: center;
+            letter-spacing: -0.01px;
+            margin-bottom: 15px;
+
+            .story-item {
+                display: flex;
+                flex-direction: column;
+                padding: 0 10px;
+
+                .image-border {
+                    @include box-round(62px);
+                    @include simple-flex(center, center);
+                    border: 1.5px solid #C7C7CC;
+                    position: relative;
+
+                    .story-img {
+                        border-radius: 50%;
+                        background-size: cover;
+                        width: 56px;
+                        height: 56px;
+                        border: 2.4px solid #fff;
+                    }
+                }
+            }
+        }
+
+        .menu-profile {
+            @include simple-flex(space-around, center, row);
+            height: 44px;
+        }
+
+    }
+
+    section.feed-container {
+
+        @include simple-flex(center, center, row);
+        flex-wrap: wrap;
+        margin: 0;
+        max-width: 100vw;
+
+        img.feed-img {
+            margin: 0 0.5px;
+        }
+
+    }
+}
